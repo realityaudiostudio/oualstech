@@ -8,7 +8,7 @@ body::-webkit-scrollbar {
 }
 
 /* Hide scrollbar for IE, Edge and Firefox */
-.heads {display: flex;gap: 290px;background: linear-gradient(180deg, #161616 0%, rgba(128, 128, 128, 0) 133.8%);}
+.heads {display: flex;gap: 290px;background-image: url(img/Rectangle\ 1.png);}
 .navh {display: flex;gap: 40px;}
 .navh a{color: white;text-decoration: none;font-size: 10px;font-weight: 300;padding: 40px 0px 40px 0px;}
 .fullh{height: 100vh;width: 100%;background-image: url(img/fullh.png);background-size: cover;background-repeat: no-repeat;}
@@ -31,7 +31,10 @@ body::-webkit-scrollbar {
     width: 50%;padding: 130px 20px 160px 20px; text-align: center;align-items: center;}
     .company{display: flex;gap: 60px;padding-top: 40px;align-items: center;}
     .company img {object-fit: contain;height: 40px;}
-    .git{padding: 45px 200px 10px 200px; background-image: url(img/gitbg.png);background-size: cover;width: 100%;height: 320px;background-repeat: no-repeat;display: flex;}
+    .gita{padding: 45px 200px 10px 200px; background-image: url(img/gitbg.png);background-size: contain;height: 320px;background-repeat: no-repeat;display: block;}
+    .gits{display: flex;}
     .info{display: block;padding-right: 55px;}
     .liner{width:1px;height:220px;background-color: #FFFFFF;}
-    .cs{padding-left: 30px;}
+    .cs{padding-left: 30px;padding-right: 100px;}
+    .footdis{float: left;padding-top: 10px;}
+    .footdis a{text-decoration: none;color: #FFFFFF;font-size: 10px;}
