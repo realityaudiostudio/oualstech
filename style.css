@@ -2,6 +2,7 @@
 body {font-family: 'Inter', sans-serif;font-weight: lighter; margin: 0;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;}
+    a{text-decoration: none;}
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
@@ -12,6 +13,8 @@ body::-webkit-scrollbar {
 .navh {display: flex;gap: 40px;}
 .navh a{color: white;text-decoration: none;font-size: 10px;font-weight: 300;padding: 40px 0px 40px 0px;}
 .fullh{height: 100vh;width: 100%;background-image: url(img/fullh.png);background-size: cover;background-repeat: no-repeat;}
+.staffh{height: 80vh;width: 100%;background-image: url(img/stfbg.png);background-size: cover;background-repeat: no-repeat;}
+
 .oht {padding:165px 0px 200px 150px;
     height: 100px;width: 50vw;
     font-weight: 300;
@@ -31,10 +34,18 @@ body::-webkit-scrollbar {
     width: 50%;padding: 130px 20px 160px 20px; text-align: center;align-items: center;}
     .company{display: flex;gap: 60px;padding-top: 40px;align-items: center;}
     .company img {object-fit: contain;height: 40px;}
-    .gita{padding: 45px 200px 10px 200px; background-image: url(img/gitbg.png);background-size: contain; height: 320px;background-repeat: no-repeat;display: block;}
+    .gita{padding: 45px 200px 10px 200px; background-image: url(img/gitbg.png);background-size: cover; height: 320px;background-repeat: no-repeat;display: block;color: #FFFFFF;}
     .gits{display: flex;}
     .info{display: block;padding-right: 55px;}
     .liner{width:1px;height:220px;background-color: #FFFFFF;}
     .cs{padding-left: 30px;padding-right: 100px;}
     .footdis{float: left;padding-top: 10px;}
     .footdis a{text-decoration: none;color: #FFFFFF;font-size: 10px;}
+    .sss{display: flex;padding: 0px 120px 100px 120px;gap:170px;}
+    .ssub{display: block;}
+    .ssmall{ border-left: 6px solid rgba(194, 42, 32, 1);padding-left: 15px;padding-bottom: 20px;}
+    .ssmall h3{ font-size: 14px;}
+    .ssmall p{ font-size: 12px;}
+    .smenu2 a{color: #FFFFFF;padding-right: 50px; font-size: 20px;}
+    .smenu2{display:inline-block;gap: 20px;}
+    .smenu{padding: 0px 0px 100px 120px;}
