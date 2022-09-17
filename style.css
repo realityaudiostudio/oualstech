@@ -49,3 +49,21 @@ body::-webkit-scrollbar {
     .smenu2 a{color: #FFFFFF;padding-right: 50px; font-size: 20px;}
     .smenu2{display:inline-block;gap: 20px;}
     .smenu{padding: 0px 0px 100px 120px;}
+    .form{padding: 0px 120px 100px 120px;}
+    .it3{display: flex;justify-content: space-between;}
+    input{background-color: #000000;border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);width: 25%;padding-bottom: 20px;padding-top: 15px;
+    color: #FFFFFF;}
+        .write{padding-top: 100px;}
+        ::-webkit-input-placeholder { /* Edge */
+            color: rgba(255, 255, 255, 1);
+          }
+          
+          :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: rgba(255, 255, 255, 1);
+          }
+          
+          ::placeholder {
+            color: rgba(255, 255, 255, 1);
+          }
+          
