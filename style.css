@@ -14,7 +14,7 @@ body::-webkit-scrollbar {
 .navh a{color: white;text-decoration: none;font-size: 10px;font-weight: 300;padding: 40px 0px 40px 0px;}
 .fullh{height: 100vh;width: 100%;background-image: url(img/fullh.png);background-size: cover;background-repeat: no-repeat;}
 .staffh{height: 80vh;width: 100%;background-image: url(img/stfbg.png);background-size: cover;background-repeat: no-repeat;}
-
+.cnth{height: 80vh;width: 100%;background-image: url(img/cntbg.png);background-size: cover;background-repeat: no-repeat;}
 .oht {padding:165px 0px 200px 150px;
     height: 100px;width: 50vw;
     font-weight: 300;
@@ -66,4 +66,5 @@ body::-webkit-scrollbar {
           ::placeholder {
             color: rgba(255, 255, 255, 1);
           }
-          
+          .city{padding: 0px 130px 40px 130px;display: flex;gap: 40px;}
+          .citycrd{display: block;width: 50vw;background: #242424;}
