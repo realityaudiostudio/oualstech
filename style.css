@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
 body {font-family: 'Inter', sans-serif;font-weight: lighter; margin: 0;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;}
@@ -15,6 +16,8 @@ body::-webkit-scrollbar {
 .fullh{height: 100vh;width: 100%;background-image: url(img/fullh.png);background-size: cover;background-repeat: no-repeat;}
 .staffh{height: 80vh;width: 100%;background-image: url(img/stfbg.png);background-size: cover;background-repeat: no-repeat;}
 .cnth{height: 80vh;width: 100%;background-image: url(img/cntbg.png);background-size: cover;background-repeat: no-repeat;}
+.posth{height: 80vh;width: 100%;background-image: url(img/posbg.png);background-size: cover;background-repeat: no-repeat;}
+
 .oht {padding:165px 0px 200px 150px;
     height: 100px;width: 50vw;
     font-weight: 300;
@@ -68,3 +71,8 @@ body::-webkit-scrollbar {
           }
           .city{padding: 0px 130px 40px 130px;display: flex;gap: 40px;}
           .citycrd{display: block;width: 50vw;background: #242424;}
+          .poscrd{ display: block;width: 50vw;background: #242424;padding: 40px 20px 30px 20px;}
+          .post{padding: 0px 100px 10px 100px;display: flex;gap: 10px;}
+          .poh{color: #FFFFFF;text-align: center;justify-content: center;align-items: center;padding: 120px 140px;}
+          .poh a{color: white;background-color: rgba(236, 102, 11, 1);padding: 20px;border-radius: 5px;}
+          .apply a{color: #FFFFFF;padding: 10px; border: 2px solid rgb(255, 255, 255);}
